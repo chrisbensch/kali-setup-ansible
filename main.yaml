@@ -1,0 +1,6 @@
+---
+- name: Customize Kali Linux
+  hosts: localhost
+  #become: yes
+  roles:
+    - kali_tools
